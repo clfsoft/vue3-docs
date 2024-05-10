@@ -217,7 +217,7 @@ map.forEach((value, key) => { console.log(key, value)})
 
 与`Map`的区别
 - Map 的键可以是任意类型，WeakMap 的键只能是对象类型 
-- WeakMap 键名所指向的对象，不计入垃圾回收机制
+- WeakMap 的键对象，不计入垃圾回收机制
 
 `WeakMap` 的属性跟操作方法与 `Map` 一致，同 `WeakSet` 一样，因为是弱引用，所以 `WeakSet` 也没有遍历方法
 
